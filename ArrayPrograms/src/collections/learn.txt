@@ -1,0 +1,29 @@
+collections
+
+    collections - grandparent
+    List -> ArrayList,LinkedList
+    Set -> Hashset,Treeset
+    Queue -> PriorityQueue
+    Map -> Maps don't implement the Collection interface, but they are vital. 
+    
+    
+    
+    
+   //  List
+   1.collection is an interface -> add,addAll,remove,contains,size....   are universal methods for list,set,queue
+   2.list is an interface  -> get(),set(),add()indexOf .. from list interface also includes of collection interface methods
+   3.list extends the collection
+   4.ArrayList and LinkedList are classes that  implements the list interface
+   5. list store only single entity type like List <Integer> = new ArrayList(); // this is invalid List<String,Integer>
+   
+   
+   
+   //set
+   
+   1.collection is an interface -> add,addAll,remove,contains,size....   are universal methods for list,set,queue
+   2. set is an interface that extends the collection interface
+   3. HashSet,LinkedHashSet,TreeSet are classes that implements set interface
+   
+   4. no duplicate , no index , no order
+   
+   

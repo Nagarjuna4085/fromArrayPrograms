@@ -21,6 +21,7 @@ public class VowelChecker {
     }
 
     public static void main(String[] args) {
+    	System.out.println(Math.pow(2, 6));
         String test1 = "Hello";
         String test2 = "Rhythm"; // No vowels (y is technically a vowel sometimes, but not in basic char checks)
 
