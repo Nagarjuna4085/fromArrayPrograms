@@ -1,0 +1,34 @@
+Hashmap Internal Implementatiom
+
+key-value pairs
+internally store in the form of Array of Linked list
+initial capacity is 16 (0,1,2....15)
+
+some indexes are linked lists so called as array of Linked list
+
+it uses hashing
+hashing is a method which takes any input and converts into small interger called a hash value
+
+ input ->hashmap() -> int value
+ 
+ for same input -> must get the same hash 
+
+ but, different input may get same value ->  called COLLISION
+ 
+ when collision occures linked list will form
+ 
+ lesser the collison,better the hash funtion -> truth
+ 
+it has own hash() method
+
+we can also give custom hashing logic
+
+output is the index
+
+if linked is ling java 8 converts linked list to binary search tree
+
+hash -> hashCode which native method of object class
+
+
+ Arun@mma@123
+ 

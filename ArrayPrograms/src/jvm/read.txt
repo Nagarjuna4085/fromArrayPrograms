@@ -1,0 +1,20 @@
+tyopes of variables
+
+1.Local variables -> inside method, store in stack memory
+
+
+2. instance variables -> belong to instance of class that is objects, store in heap memory
+
+
+3. Static variables -> belong to class ,store in methodAread
+    
+    
+    MethodAread -> store class metadata also like className,variables and method Names,but for static variables store value
+    
+    
+    
+    
+PC register - > Every thread has PC register, store the address of the current instruction being executed
+
+Native Method Stack - > used for native methods which were written on some other language but integrated in JDK
+   Examples : Object class has native hashCode() methods

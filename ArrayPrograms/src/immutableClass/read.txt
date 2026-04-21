@@ -1,0 +1,9 @@
+Rules
+
+
+1. No setter methods insude class
+2. fields must be private
+3. Initialization of fields must be from constructor
+4. fields must be final
+5. class must be final
+6. in case of mutable field,copy must be returned instead of referense

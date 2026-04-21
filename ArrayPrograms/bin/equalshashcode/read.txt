@@ -1,0 +1,38 @@
+equals() and hashcode()
+
+
+
+//                 equals()
+
+
+they are used to comare if two objects are smae
+they are used in hashing based data structures like hashset,hashmap,hash table
+they are used in string
+they are used in java 8 collections and stream api
+
+
+
+
+equals and hashCode is belong to Object class
+Object is the parent of all classes in java
+
+hashCode is native method which is written in some other langauge
+
+
+ public boolean equals(Object obj) {
+        return (this == obj);
+    }
+    
+    
+    for manual class objects -> equals() method is not implemented 
+    String  -> equals method is implemented
+    
+    
+    
+//                    hashCode()
+    
+    
+    1. method of object class
+    2. used to create hash value for an object. Hash mean uniq integer valur that can be assigned to you object for its identification
+    3. as per the contract,wheneven you override equals(), you must override hashCode() as well
+    4. 

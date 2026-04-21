@@ -1,0 +1,10 @@
+🔥 Definition of Method Reference (Java)
+
+👉 A Method Reference in Java is a short and clean way to call an existing method using a functional interface, instead of writing a lambda expression.
+
+
+
+
+🔥 Definition of Lambda Expression (Java)
+
+👉 A Lambda Expression in Java is a short way to write an anonymous function (a function without a name) that can be passed as an argument or used to implement a functional interface.

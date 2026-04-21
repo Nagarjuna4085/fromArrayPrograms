@@ -1,0 +1,187 @@
+👇
+
+🚀 1. What is DSA?
+
+DSA = Data Structures + Algorithms
+
+Data Structure → How data is stored
+Algorithm → How operations are performed on data
+
+👉 Example:
+
+Array = Data structure
+Binary Search = Algorithm
+📦 2. Core Data Structures
+1. Array
+Continuous memory
+Fast access using index O(1)
+
+👉 Operations:
+
+Access → O(1)
+Insert/Delete → O(n)
+
+👉 Use case:
+
+When you need fast indexing
+2. Linked List
+Nodes connected with pointers
+
+👉 Types:
+
+Singly
+Doubly
+Circular
+
+👉 Operations:
+
+Insert/Delete → O(1) (if position known)
+Search → O(n)
+
+👉 Use case:
+
+Dynamic size, frequent insert/delete
+3. Stack (LIFO)
+
+👉 Last In First Out
+
+Operations:
+
+push()
+pop()
+peek()
+
+👉 Use case:
+
+Undo/Redo
+Expression evaluation
+4. Queue (FIFO)
+
+👉 First In First Out
+
+Types:
+
+Simple Queue
+Circular Queue
+Priority Queue
+Deque
+
+👉 Use case:
+
+Scheduling
+Buffer systems
+5. HashMap (Hash Table)
+Key → Value pair
+
+👉 Operations:
+
+Insert/Search/Delete → O(1) (average)
+
+👉 Use case:
+
+Fast lookup
+Frequency count
+6. Set
+Stores unique elements
+
+👉 Types:
+
+HashSet
+TreeSet
+🌳 7. Tree
+Binary Tree
+
+Each node has max 2 children
+
+Binary Search Tree (BST)
+
+Left < Root < Right
+
+👉 Operations:
+
+Search → O(log n) (average)
+🌲 8. Heap
+Complete binary tree
+
+👉 Types:
+
+Min Heap
+Max Heap
+
+👉 Use case:
+
+Priority Queue
+🌐 9. Graph
+Nodes + Edges
+
+👉 Types:
+
+Directed
+Undirected
+Weighted
+
+👉 Traversal:
+
+BFS (Queue)
+DFS (Stack/Recursion)
+⚡ 3. Important Algorithms
+🔍 Searching
+Linear Search → O(n)
+Binary Search → O(log n) (sorted array)
+🔃 Sorting
+Bubble Sort → O(n²)
+Selection Sort → O(n²)
+Insertion Sort → O(n²)
+Merge Sort → O(n log n)
+Quick Sort → O(n log n)
+🔁 Recursion
+Function calling itself
+
+👉 Base case is mandatory!
+
+🧠 Backtracking
+Try all possibilities + undo
+
+👉 Examples:
+
+N-Queens
+Sudoku
+⚙️ Dynamic Programming (DP)
+Optimize recursion using memory
+
+👉 Two types:
+
+Memoization (Top-down)
+Tabulation (Bottom-up)
+🔗 Greedy Algorithm
+Take best choice at each step
+
+👉 Example:
+
+Coin change
+Activity selection
+📊 4. Time & Space Complexity
+Common Complexities:
+O(1) → Constant
+O(log n) → Logarithmic
+O(n) → Linear
+O(n log n) → Efficient sorting
+O(n²) → Nested loops
+🎯 5. Must-Know Patterns (VERY IMPORTANT)
+
+👉 These are what interviewers actually test:
+
+1. Two Pointers
+Used in arrays/strings
+2. Sliding Window
+Subarray problems
+3. Fast & Slow Pointer
+Linked list cycle detection
+4. Binary Search Pattern
+Search in sorted data
+5. DFS / BFS
+Tree & Graph problems
+6. Prefix Sum
+Range sum problems
+7. Kadane’s Algorithm
+Maximum subarray sum
